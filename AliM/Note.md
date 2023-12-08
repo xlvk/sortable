@@ -46,8 +46,12 @@
 - Results should be sortable alphabetically or numerically.
 
 - Initially all rows should be sorted by the column 'name' by 'ascending' order.
+
 - The first click on a column heading will sort the table by the data in that column in 'ascending' order.
+
 - Consecutive clicks on a column heading will toggle between 'ascending' and 'descending'
+
 - Missing values should always be sorted last, irrespective of ascending or descending.
+
 - Some of the columns are composed of strings, but represent numerical values. 
     For example, when the 'weight' column is sorted in ascending order, then "78 kg" must be displayed before "100 kg".
