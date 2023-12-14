@@ -61,6 +61,7 @@ function filterTable() {
     headers.forEach((header) => {
         const headerCell = document.createElement('th')
         headerCell.textContent = header
+        headerCell.className = 'table-header';
         headerCell.style.textAlign = 'center' // center-align the header cell
         headerRow.appendChild(headerCell)
     })
@@ -133,6 +134,7 @@ function filterTable() {
 
         table.appendChild(row)
     })
+    makeTableSortable();
 }
 
 function ceil(int) {
